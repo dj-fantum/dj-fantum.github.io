@@ -1,0 +1,38 @@
+body {
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.desc {
+    font-weight: 100;
+}
+
+.biopic {
+    border-radius: 10%;
+}
+
+#index-banner {
+    background-image: url("../table.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,.4);
+}
+
+.instagramButton {
+    width: 60px;
+    height: 60px;
+    padding: 10px !important;
+    background: #b0bec5;
+    display: block;
+    border-radius: 50%;
+    transition: background-color .25s ease-in-out;
+}
+
+.instagramButton img {
+    width: 40px;
+    height: 40px;
+}
+
+.instagramButton:hover {
+    background: #84ffff;
+} 
