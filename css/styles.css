@@ -1,6 +1,12 @@
-body {
+html, body {
     background-color: #222;
     color: whitesmoke;
+}
+
+
+
+.hidden {
+    visibility: hidden;
 }
 
 .desc {
